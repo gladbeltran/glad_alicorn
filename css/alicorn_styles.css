@@ -1,0 +1,217 @@
+h1 {
+	font-family: 'Arvo', sans serif;
+	font-size: 2.5rem;
+	padding: 15px 0 0 25px;
+	margin-top: 25px;
+  color: white;
+}
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background-color: #9c386b;
+  /*background-color: #87305d;*/
+}
+
+/*#logo {
+  text-align: center;
+  margin: 0;
+}*/
+
+/*h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}*/
+
+h2 {
+  font-size:0.75em;
+  margin:-5px 0 0;
+  font-weight: normal;
+}
+
+
+/*NAVIGATION*/
+
+/*nav {
+  padding: 8px 16px;
+  margin: 20px 0 0;
+  background-color: #f7f7f7;
+  display: inline-flex;
+}*/
+
+/*
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+
+  /* list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;*/
+/*}
+
+nav li {
+  display: inline-block;
+ }*/
+
+
+
+nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+}*/
+
+
+/*SEARCH BOX*/
+
+/* for border and box around nav */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding: 8px 16px;
+  margin: 20px 0 0;
+
+}
+
+/*.home-link {
+  display: inherit;
+}*/
+
+#search-box {
+  /*flex: 4;*/
+
+}
+
+.button .btn {
+  margin: 0 10px 0 0;
+  
+  font-size: 16px;
+  font-family: 'Arvo', sans serif;
+  line-height: 1.8;
+  width: 100px;
+  box-shadow: none;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+/*button:focus {
+  outline: none
+}*/
+
+/*button {
+
+  border-radius: 2;
+  background-color: lightslategray;
+  
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+}*/
+
+/*.search-box input {
+
+  width: 100%;
+}*/
+
+
+
+/*.form-group {
+flex-wrap: nowrap;
+}
+
+.form-control {
+  width: 100%;
+  float: left;
+}*/
+
+
+
+/*CARD*/
+
+.card{
+  margin-left: 20px;
+
+}
+
+.card a {
+
+  text-decoration: none;
+/*  color: #9c386b;
+*//*  color: #00a3b4;*/
+    color: #008099;
+}
+
+.card-block {
+  border-width: 1px;
+  border-style: solid;
+  padding: 15px;
+  border-color: lightgrey;
+  border-radius: 3px;
+}
+
+.card-title {
+
+  font-family: 'Open Sans', sand serif;
+  /*display: block;*/
+  font-size: 15px;
+  margin: 0 0 10px 0;
+
+/*  padding: 20px;
+*/
+}
+
+.card-subtitle {
+  font-family: 'Verdana', sand serif;
+  margin: -3px 0 8px 0;
+  font-size: 12px;
+  color: #636c72;
+}
+
+.card-text {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #292b2c;
+  margin: 0 0 13px 0;
+/*  margin-bottom: 16px;
+*/}
+
+.card-link {
+  color:#0275d8;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 13px;
+  /*margin-left: 15px;*/
+
+}
+
+.vote-column {
+
+  float:left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/*.card-title, .card-subtitle, .card-text, .card-link {
+
+  clear:both;
+}*/
