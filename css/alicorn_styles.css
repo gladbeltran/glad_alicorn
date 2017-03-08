@@ -8,25 +8,13 @@ h1 {
 
 header {
   float: left;
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
   padding: 5px 0 0 0;
   width: 100%;
   background-color: #9c386b;
   /*background-color: #87305d;*/
 }
 
-/*#logo {
-  text-align: center;
-  margin: 0;
-}*/
-
-/*h1 {
-  font-family: 'Montserrat', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-}*/
 
 h2 {
   font-size:0.75em;
@@ -62,49 +50,52 @@ nav li {
 
 
 
-nav a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  padding: 15px 10px;
-  text-decoration: none;
-}*/
-
-
-/*SEARCH BOX*/
-
-/* for border and box around nav */
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
   width: 100%;
-
-  justify-content: space-around;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
   background-color: #f7f7f7;
-  padding: 8px 16px;
-  margin: 20px 0 0;
-
+  padding: 0 0 0 5px;
+  margin: 0;
 }
 
-/*.home-link {
-  display: inherit;
-}*/
-
-#search-box {
-  /*flex: 4;*/
-
+nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+ /* padding: 1em;*/
+  text-decoration: none;
 }
 
-.button .btn {
-  margin: 0 10px 0 0;
+.nav-item {
+  padding: 10px;
+ /* text-align: center;*/
+}
+
+/*.navbar {
+  justify-content: space-around;
+}
+*/
+
+.search-field {
   
+  width: 100%;
+
+}
+
+.search-field {
+  display: flex;
+  justify-content: flex-end;
+}
+input {
+  height: 35px;
+ 
+}
+
+button {
+/*  margin: 0 10px 0 0;
+*/
   font-size: 16px;
   font-family: 'Arvo', sans serif;
   line-height: 1.8;
@@ -115,43 +106,13 @@ html {
   color: white;
 }
 
-/*button:focus {
-  outline: none
-}*/
-
-/*button {
-
-  border-radius: 2;
-  background-color: lightslategray;
-  
-  text-shadow: -1px 1px #417cb8;
-  border: none;
-}*/
-
-/*.search-box input {
-
-  width: 100%;
-}*/
-
-
-
-/*.form-group {
-flex-wrap: nowrap;
-}
-
-.form-control {
-  width: 100%;
-  float: left;
-}*/
-
-
 
 /*CARD*/
 
-.card{
+/*.card{
   margin-left: 20px;
 
-}
+}*/
 
 .card a {
 
