@@ -117,9 +117,7 @@ button {
 .card a {
 
   text-decoration: none;
-/*  color: #9c386b;
-*//*  color: #00a3b4;*/
-    color: #008099;
+  color: #008099;
 }
 
 .card-block {
@@ -128,6 +126,27 @@ button {
   padding: 15px;
   border-color: lightgrey;
   border-radius: 3px;
+  display: flex;
+}
+
+.vote-column {
+  margin: -9px 0 0 0;
+  padding: 0 10px 0 0;
+  text-decoration: none;
+  display:flex;
+  flex-direction: column;
+/*  justify-content: space-between;
+*/  /*align-items: flex-start;*/
+}
+
+.fa:visited {
+    color: mediumorchid;
+}
+
+.card-content {
+
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title {
@@ -156,21 +175,21 @@ button {
 /*  margin-bottom: 16px;
 */}
 
+.card-links-row {
+
+  display: flex;
+  justify-content: flex-start;
+}
 .card-link {
   color:#0275d8;
   text-decoration: none;
-  margin-right: 15px;
+  padding: 0 15px 0 0;
   font-size: 13px;
   /*margin-left: 15px;*/
 
 }
 
-.vote-column {
 
-  float:left;
-  padding: 10px;
-  text-decoration: none;
-}
 
 /*.card-title, .card-subtitle, .card-text, .card-link {
 
