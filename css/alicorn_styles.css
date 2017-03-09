@@ -139,7 +139,16 @@ button {
 */  /*align-items: flex-start;*/
 }
 
-.fa:visited {
+/*.fa:visited {
+    color: mediumorchid;
+}*/
+
+i.fa {
+    color: black;
+}
+            
+
+i.fa.pressed {
     color: mediumorchid;
 }
 
