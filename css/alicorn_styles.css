@@ -95,12 +95,13 @@ button {
   font-size: 16px;
   font-family: 'Arvo', sans serif;
   line-height: 1.8;
-  width: 100px;
+  width: 65px;
+  height: 100%;
   box-shadow: none;
   border-radius: 5px;
   border: none;
   color: white;
-  height: 35px;
+  /*height: 35px;*/
 }
 
 
@@ -119,30 +120,48 @@ button {
   border-color: lightgrey;
   border-radius: 3px;
   display: flex;
+  align-items: stretch;
 }
 
 .vote-column {
-  margin: -9px 0 0 0;
-  padding: 0 10px 0 0;
+  /*margin: -9px 0 0 0;*/
+  /*padding: 0 0 10 0;*/
   text-decoration: none;
   display:flex;
   flex-direction: column;
+  flex-shrink: 1;
+  margin-right: 15px;
+
 /*  justify-content: space-between;
 */  /*align-items: flex-start;*/
 }
 
-/*.fa:visited {
-    color: mediumorchid;
-}*/
+.btn-ali { 
+  color: #FFFFFF; 
+  background-color: #00A3B4; 
+  border-color: #444444; 
 
-i.fa {
+  
+} 
+ 
+
+.vote-count {
+  font-family: 'Open Sans', sans serif;
+  /*display: block;*/
+  font-size: 1em;
+  color: #white;
+  font-weight: bold;
+}
+
+
+/*i.fa {
     color: darkgrey;
 }
             
 
 i.fa.pressed {
     color: mediumorchid;
-}
+}*/
 
 .card-content {
 
@@ -150,49 +169,72 @@ i.fa.pressed {
   flex-direction: column;
 }
 
+.title-row {
+  display: flex;
+  align-items: flex-end;
+}
+.url-label {
+  font-family: ;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
 .card-title {
 
-  font-family: 'Open Sans', sand serif;
+  font-family: 'Open Sans', sans serif;
   /*display: block;*/
-  font-size: 15px;
+  font-size: 1em;
+  color: #00a3b4;
+  font-weight: bold;
+  line-height: 1.5em;
   margin: 0 0 10px 0;
 }
 
 .card-title a {
 
-  color:black;
+  color: #00a3b4;
   text-decoration: none;
 }
 
-.card-subtitle {
-  font-family: 'Verdana', sand serif;
-  margin: -3px 0 8px 0;
-  font-size: 12px;
-  color: #445555;
-}
-
-.card-subtitle a {
-
-  color: black;
-}
 
 p.card-text {
   line-height: 1.5;
   font-size: 14px;
   color: #445555;
-  margin: 0 0 13px 0;
+  margin: 0 0 10px 0;
 }
 
-.card-links-row {
+.bottom-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  
+}
+.card-subtitle {
+  font-family: 'Verdana', sans serif;
+  margin: 0 0 -10px 0;
+  font-size: 12px;
+  color: #445555;
+  padding: 0 12px 0 0;
+}
+.card-subtitle a {
+
+  color: black;
+  
+}
+
+/*.card-links-row {
 
   display: flex;
   justify-content: flex-start;
-}
+}*/
 .card-link {
   color:#0275d8;
   text-decoration: none;
-  padding: 0 15px 0 0;
-  font-size: 13px;
+  margin: 0 0 -10px 0;
+  padding: 0 12px 0 0;
+  font-size: 12px;
+  font-family: 'Verdana', sans serif;
   /*margin-left: 15px;*/
 
 }
