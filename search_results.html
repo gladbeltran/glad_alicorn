@@ -4,33 +4,64 @@
 <script src="https://use.fontawesome.com/ac64033912.js"></script>
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/alicorn_styles.css">
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link rel="stylesheet" type="text/css" href="css/dropdown.css">
  <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700|Lato:400,700|Montserrat:400,400i,500,600,700|Open+Sans:400,600|Roboto:400,500,700" rel="stylesheet">
+
+ 
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <title>Alicorn</title>
 </head>
 <body>
 
     <header>
   
-      <h1>Alicorn</h1>
+              <p class="h1-center"><a class="h1-center"href="index.html">Alicorn</a></p>
+
         
     </header>
 
     <div id="wrapper">
         <nav>
       <div class="navbar">    
-        <div class="nav-item">
-          <a href="index.html" class="selected">Home</a>
-        </div> <!-- /nav-item -->
-          <form method="get" action="search_results.html" class="search-field">
-              <div class="sf-space">
-                <span class="f-space"><input type="search" placeholder="Search"> </span>            
-                <span class="f-space"><button type="submit" class="btn btn-default">Submit</button></span>
-                </div> <!-- /sf-space -->
-              </form> <!-- /search-field -->
+
+              <form role="search" method="get" action="search_results.html" class="navbar-form search-field">
+              <div class=" form-group sf-space">
+                <input class="f-space" type="text" placeholder="interaction design">
+                </div>            
+              <button type="submit" class="btn btn-default f-space">Submit</button>
+              </form>
        
     </div> <!-- /navbar -->
     </nav>
+
+    <div class="row" style="display:flex; justify-content: flex-start;">
+    <div class="col bar-item">
+    <select class="custom-select">
+          <option selected>sort by:</option>
+          <option value="1">relevance</option>
+          <option value="2">popular</option>
+          <option value="3">latest</option>
+          <option value="3">most comments</option>
+        </select>
+    </div>
+     <div class="col bar-item">
+        <select class="custom-select">
+          <option selected>links from:</option>
+          <option value="1">all time</option>
+          <option value="2">past hour</option>
+          <option value="3">past 24 hours</option>
+          <option value="3">past week</option>
+          <option value="3">past month</option>
+          <option value="3">past year</option>
+        </select>
+        </div>
+        </div>
 <div class="card">
   <div class="card-block">
     <div class="vote-column">
@@ -40,7 +71,7 @@
         <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
     </div> <!-- /vote-column -->
     <div class="card-content">
-    <h4 class="card-title"><a href="https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e#.q0bkp9mhl">Card Title</a></h4>
+    <h4 class="card-title"><a href="https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e#.q0bkp9mhl">Interaction Design Resource</a></h4>
       <p class="card-subtitle">posted <a href=""> 4 hours ago</a> by <a href="">shane reed</a></p>
       <p class="card-text">I read an article on color in UI design and learned a new way to think about color schemes. The author's approach is to modify one base color into many variations. </p>
       <div class="card-links-row">
@@ -60,7 +91,7 @@
       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
     </div> <!-- /vote-column -->
     <div class="card-content">
-     <h4 class="card-title"><a href="http://http://gridbyexample.com/">Card Title
+     <h4 class="card-title"><a href="http://http://gridbyexample.com/">Interaction Design Resource
 </a></h4>
     <p class="card-subtitle">posted <a href=""> 7 hours ago</a> by <a href="">brenda hoyle</a></p>
     <p class="card-text">I found the examples useful and easy to understand.</p>
@@ -81,7 +112,7 @@
       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
     </div> <!-- /vote-column -->
     <div class="card-content">
-    <h4 class="card-title"><a href="https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map">Card Title</a></h4>
+    <h4 class="card-title"><a href="https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map">Interaction Design Resource</a></h4>
    <!--  <h6 class="card-subtitle">Card subtitle</h6> -->
    <p class="card-subtitle">posted <a href=""> 8 hours ago</a> by <a href="">jonas healy</a></p>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -102,7 +133,7 @@
       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
     </div> <!-- /vote-column -->
     <div class="card-content">
-    <h4 class="card-title"><a href="">Card title</a></h4>
+    <h4 class="card-title"><a href="">Interaction Design Resource</a></h4>
    <p class="card-subtitle">posted <a href=""> 3 hours ago</a> by <a href="">ella nance</a></p>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      <div class="card-links-row">
@@ -122,7 +153,7 @@
       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
     </div> <!-- /vote-column -->
     <div class="card-content">
-    <h4 class="card-title"><a href="">Card title</a></h4>
+    <h4 class="card-title"><a href="">Interaction Design Resource</a></h4>
    <p class="card-subtitle">posted <a href=""> 3 hours ago</a> by <a href="">ella nance</a></p>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      <div class="card-links-row">

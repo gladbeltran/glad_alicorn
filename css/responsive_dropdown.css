@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .dropdown-menu-lg {
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .dropdown-menu-lg > li {
+    margin-bottom: 30px;
+  }
+  .dropdown-menu-lg > li:last-child {
+    margin-bottom: 0;
+  }
+  .dropdown-menu-lg .dropdown-header {
+    padding: 3px 15px !important;
+  }
+}
