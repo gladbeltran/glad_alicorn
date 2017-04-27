@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://use.fontawesome.com/ac64033912.js"></script>
-<link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/alicorn_styles.css">
-<link rel="stylesheet" type="text/css" href="css/dropdown.css">
- <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700|Lato:400,700|Montserrat:400,400i,500,600,700|Open+Sans:400,600|Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/alicorn_styles.css">
+  <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700|Lato:400,700|Montserrat:400,400i,500,600,700|Open+Sans:400,600|Roboto:400,500,700" rel="stylesheet">
 
- 
- <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <title>Alicorn</title>
 </head>
+<header> 
+  <p class="h1-center"><a class="h1-center"href="index.html">Alicorn</a></p>
+</header>
+
 <body>
-
-    <header>
-  
-              <p class="h1-center"><a class="h1-center"href="index.html">Alicorn</a></p>
-
-        
-    </header>
-
-    <div id="wrapper">
-        <nav>
-      <div class="navbar">    
-
-              <form role="search" method="get" action="search_results.html" class="navbar-form search-field">
-              <div class=" form-group sf-space">
-                <input class="f-space" type="text" placeholder="interaction design">
-                </div>            
-              <button type="submit" class="btn btn-default f-space">Submit</button>
-              </form>
-       
+  <nav>
+    <div class="navbar">    
+      <form class="navbar-form search-field" role="search" method="get" action="search_results.html" >
+        <div class="input-group sf-space">
+          <input type="text" class="form-control f-space" placeholder="Search" name="srch-term" id="srch-term">
+          <div class="input-group-btn">
+            <button type="submit" class="btn btn-default f-space sub-btn">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div> <!-- /input-group-btn -->
+        </div> <!-- input-group sf-space -->
+      </form>       
     </div> <!-- /navbar -->
-    </nav>
-
+  </nav>
+  
+  <div id="wrapper">
     <div class="row" style="display:flex; justify-content: flex-start;">
-    <div class="col bar-item">
-    <select class="custom-select">
+      <div class="col bar-item">
+        <select class="custom-select">
           <option selected>sort by:</option>
           <option value="1">relevance</option>
           <option value="2">popular</option>
           <option value="3">latest</option>
           <option value="3">most comments</option>
         </select>
-    </div>
-     <div class="col bar-item">
+      </div> <!-- /col bar-item -->
+      <div class="col bar-item">
         <select class="custom-select">
           <option selected>links from:</option>
           <option value="1">all time</option>
@@ -60,8 +56,8 @@
           <option value="3">past month</option>
           <option value="3">past year</option>
         </select>
-        </div>
-        </div>
+      </div> <!-- /col bar-item -->
+    </div> <!-- /row -->
 
 <div class="card">
   <div class="card-block">
@@ -73,83 +69,53 @@
     </div> <!-- /vote-column -->
     <div class= "card-content">
       <div class="title-row">
-      <h4 class="card-title">
+        <h4 class="card-title">
         <a href="https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e#.q0bkp9mhl">Interaction Design Resource</a> 
-      </h4>
-      <p class="url-label">resourcesite.com</p>
+        </h4>
+        <p class="url-label">resourcesite.com</p>
       </div> <!-- /title-row -->
-
-      <p class="card-text">I read an article on color in UI design and learned a new way to think about color schemes. The author's approach is to modify one base color into many variations.
+      <p class="card-text">
+        I read an article on color in UI design and learned a new way to think about color schemes. The author's approach is to modify one base color into many variations.
       </p>
-
       <div class="bottom-row">
-      <p class="card-subtitle">posted 
+        <p class="card-subtitle">posted 
         <a href=""> 4 hours ago</a> by 
         <a href="">shane reed</a>
-      </p>
-    
+        </p>      
         <a href="#" class="card-link">comments</a>
         <a href="#" class="card-link">share</a>
         <a href="#" class="card-link">save</a>
         <a href="#" class="card-link">hide</a>
         <a href="#" class="card-link">report</a>
-      
       </div> <!-- /bottom-row -->
+
     </div> <!-- /card-content-->
   </div> <!-- /card-block -->
 </div> <!-- /card -->
 
 <div class="card">
   <div class="card-block">
-  <div class="vote-column">
+    <div class="vote-column">
       <button type="button" class="btn-ali-alt">
         <span class="glyphicon glyphicon-triangle-top glyph-alt" aria-hidden="true"></span> 
         <p class="vote-count">12.5K</p>
       </button>
     </div> <!-- /vote-column -->
     <div class= "card-content">
-    <div class="title-row">
-      <h4 class="card-title">
+      <div class="title-row">
+        <h4 class="card-title">
         <a href="http://http://gridbyexample.com/">Interaction Design Resource</a>
-      </h4>
-        <p class="url-label">resourcesite.com</p>
-    </div> <!-- /title-row -->
-    <p class="card-text">I found the examples useful and easy to understand.</p>
-    
-      
-       <div class="bottom-row">
-       <p class="card-subtitle">posted 
-        <a href="">7 hours ago</a> by 
-        <a href="">brenda hoyle</a>
-      </p>
-          <a href="#" class="card-link">comments</a>
-          <a href="#" class="card-link">share</a>
-          <a href="#" class="card-link">save</a>
-          <a href="#" class="card-link">hide</a>
-          <a href="#" class="card-link">report</a>
-        </div> <!-- /bottom-row -->
-    </div> <!-- /card-content-->
-  </div> <!-- card-block -->
-</div> <!-- card -->
-<div class="card">
-  <div class="card-block">
-  <div class="vote-column">
-     <button type="button" class="btn-ali">
-        <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span> 
-        <p class="vote-count">12.5K</p>
-      </button>
-    </div> <!-- /vote-column -->
-    <div class= "card-content">
-    <div class="title-row">
-      <h4 class="card-title">
-        <a href="https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map">Interaction Design Resource</a></h4>
+        </h4>
         <p class="url-label">resourcesite.com</p>
       </div> <!-- /title-row -->
-       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-   
-   
-     <div class="bottom-row">
-     <p class="card-subtitle">posted <a href=""> 8 hours ago</a> by <a href="">jonas healy</a></p>
+      <p class="card-text">
+      I found the examples useful and easy to understand.
+      </p>  
+      <div class="bottom-row">
+        <p class="card-subtitle">posted 
+        <a href="">7 hours ago</a> by 
+        <a href="">brenda hoyle</a>
+        </p>
         <a href="#" class="card-link">comments</a>
         <a href="#" class="card-link">share</a>
         <a href="#" class="card-link">save</a>
@@ -159,10 +125,40 @@
     </div> <!-- /card-content-->
   </div> <!-- card-block -->
 </div> <!-- card -->
+
 <div class="card">
   <div class="card-block">
-  <div class="vote-column">
-    <button type="button" class="btn-ali-alt">
+    <div class="vote-column">
+      <button type="button" class="btn-ali">
+      <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span> 
+      <p class="vote-count">12.5K</p>
+      </button>
+    </div> <!-- /vote-column -->
+    <div class= "card-content">
+      <div class="title-row">
+        <h4 class="card-title">
+        <a href="https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map">Interaction Design Resource</a></h4>
+        <p class="url-label">resourcesite.com</p>
+      </div> <!-- /title-row -->
+      <p class="card-text">
+       Some quick example text to build on the card title and make up the bulk of the card's content.
+      </p>
+      <div class="bottom-row">
+        <p class="card-subtitle">posted <a href=""> 8 hours ago</a> by <a href="">jonas healy</a></p>
+        <a href="#" class="card-link">comments</a>
+        <a href="#" class="card-link">share</a>
+        <a href="#" class="card-link">save</a>
+        <a href="#" class="card-link">hide</a>
+        <a href="#" class="card-link">report</a>
+      </div> <!-- /bottom-row -->
+    </div> <!-- /card-content-->
+  </div> <!-- card-block -->
+</div> <!-- card -->
+
+<div class="card">
+  <div class="card-block">
+    <div class="vote-column">
+      <button type="button" class="btn-ali-alt">
         <span class="glyphicon glyphicon-triangle-top glyph-alt" aria-hidden="true"></span> 
         <p class="vote-count">12.5K</p>
       </button>
@@ -170,14 +166,14 @@
   <div class= "card-content">
     <div class="title-row">
       <h4 class="card-title">
-        <a href="">Interaction Design Resource</a></h4>
-        <p class="url-label">resourcesite.com</p>
-      </div> <!-- /title-row -->
-   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-   
-   
-     <div class="bottom-row">
-     <p class="card-subtitle">posted <a href=""> 3 hours ago</a> by <a href="">ella nance</a></p>
+      <a href="">Interaction Design Resource</a></h4>
+      <p class="url-label">resourcesite.com</p>
+    </div> <!-- /title-row -->
+    <p class="card-text">
+    Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>    
+      <div class="bottom-row">
+        <p class="card-subtitle">posted <a href=""> 3 hours ago</a> by <a href="">ella nance</a></p>
         <a href="#" class="card-link">comments</a>
         <a href="#" class="card-link">share</a>
         <a href="#" class="card-link">save</a>
@@ -187,26 +183,27 @@
     </div> <!-- /card-content-->
   </div> <!-- card-block -->
 </div> <!-- card -->
+
 <div class="card">
   <div class="card-block">
-  <div class="vote-column">
+    <div class="vote-column">
       <button type="button" class="btn-ali">
         <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span> 
         <p class="vote-count">12.5K</p>
       </button>
     </div> <!-- /vote-column -->
-  <div class= "card-content">
-  <div class="title-row">
-    <h4 class="card-title">
-    <a href="">Interaction Design Resource</a>
-    </h4>
- <p class="url-label">resourcesite.com</p>
+    <div class= "card-content">
+      <div class="title-row">
+        <h4 class="card-title">
+        <a href="">Interaction Design Resource</a>
+        </h4>
+        <p class="url-label">resourcesite.com</p>
       </div> <!-- /title-row -->
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-   
-    
-    <div class="bottom-row">
-    <p class="card-subtitle">posted <a href=""> 3 hours ago</a> by <a href="">ella nance</a></p>
+      <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+      </p>
+      <div class="bottom-row">
+        <p class="card-subtitle">posted <a href=""> 3 hours ago</a> by <a href="">ella nance</a></p>
         <a href="#" class="card-link">comments</a>
         <a href="#" class="card-link">share</a>
         <a href="#" class="card-link">save</a>

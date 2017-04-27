@@ -90,13 +90,16 @@ input {
 .pointer { cursor: pointer; }
 
 
+
+
+
 button {
 /*  margin: 0 10px 0 0;
 */
   font-size: 16px;
   font-family: 'Arvo', sans serif;
   line-height: 1.8;
-  width: 65px;
+  width: 100px;
   height: 100%;
   box-shadow: none;
   border-width: 1px;
@@ -104,7 +107,6 @@ button {
   color: white;
   /*height: 35px;*/
 }
-
 
 /*CARD*/
 
@@ -137,17 +139,36 @@ button {
 */  /*align-items: flex-start;*/
 }
 
-.btn-ali { 
+
+.btn-ali {
   color: #FFFFFF; 
-  background-color: #00A3B4; 
+  background-color: #00A3B4;
+  font-size: 16px;
+  font-family: 'Arvo', sans serif;
+  line-height: 1.8;
+  width: 65px;
+  height: 100%;
   border-color: #444444; 
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: none;
+
 }
- 
+
 .btn-ali-alt {
   color: #000000; 
   background-color: #e3e3e3; 
+  font-size: 16px;
+  font-family: 'Arvo', sans serif;
+  line-height: 1.8;
+  width: 65px;
+  height: 100%;
   border-color: #444444; 
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: none;
 }
+
 
 .glyphicon-triangle-top {
   color: white; 
