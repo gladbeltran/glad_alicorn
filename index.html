@@ -23,7 +23,8 @@
 </header>
 
 <body>
-  <nav class="navbar">
+  <nav> 
+  <div class="navbar d-inline">
   <div class="nav-item">
     Popular
   </div> <!-- /nav-item  -->
@@ -105,16 +106,19 @@
     </div> <!-- nav navbar nav -->
   </div><!-- /collapse navbar-collapse js-navbar-collapse -->
 
+
+
   <form class="navbar-form search-field" role="search" method="get" action="search_results.html" >
-    <div class="input-group sf-space">
-      <input type="text" class="form-control f-space" placeholder="Search" name="srch-term" id="srch-term">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
       <div class="input-group-btn">
-        <button type="submit" class="btn btn-default f-space sub-btn">
+        <button type="submit" class="btn btn-default">
           <i class="glyphicon glyphicon-search"></i>
         </button>
       </div> <!-- /input-group-btn -->
-    </div> <!-- input-group sf-space -->
+    </div> <!-- /input-group -->
   </form>
+</div> <!-- navbar -->
 </nav>
 
 <div id="wrapper">
