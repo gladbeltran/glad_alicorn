@@ -1,6 +1,7 @@
 .h1-center {
 	font-family: 'Arvo', sans serif;
 	font-size: 3.5rem;
+  font-weight: 700;
 	padding: 15px 0 0 10px;
 	margin-top: 25px;
   color: white;
@@ -98,8 +99,8 @@ button {
   width: 65px;
   height: 100%;
   box-shadow: none;
+  border-width: 1px;
   border-radius: 5px;
-  border: none;
   color: white;
   /*height: 35px;*/
 }
@@ -140,10 +141,22 @@ button {
   color: #FFFFFF; 
   background-color: #00A3B4; 
   border-color: #444444; 
-
-  
-} 
+}
  
+.btn-ali-alt {
+  color: #000000; 
+  background-color: #e3e3e3; 
+  border-color: #444444; 
+}
+
+.glyphicon-triangle-top {
+  color: white; 
+}
+
+.glyph-alt {
+  color: #00A3B4; 
+}
+
 
 .vote-count {
   font-family: 'Open Sans', sans serif;
