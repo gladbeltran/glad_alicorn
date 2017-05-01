@@ -10,9 +10,6 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
 <link rel="stylesheet" href="js/styles/github-gist.css">
@@ -22,15 +19,19 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-
-
-
-	<title>Alicorn Pattern Library</title>
+<title>Alicorn Pattern Library</title>
 </head>
+
 <body>
+
+<!-- # HEADER # -->
+
 <div class="page-header">
   <h1>Alicorn Pattern Library</h1>
 </div>
+
+<!-- # NAVIGATION # -->
+
 <!-- <nav class="nav">
   <a class="nav-link active" href="#">Link</a>
   <a class="nav-link" href="#">Link</a>
@@ -39,38 +40,45 @@
 </nav> -->
 
 
-<div class="nav d-flex flex-column"> <!-- sidenav -->
+<!-- <div class="nav d-flex flex-column"> 
 <div class="">
 <a class="nav-link active" href="#">UI Components</a>
   <a class="nav-link" href="#">Link</a>
   <a class="nav-link" href="#">Link</a>
   <a class="nav-link" href="#">Link</a>
 </div>
-</div>
+</div> -->
+
+<!-- # WRAPPER # -->
 
 <div class="wrapper container">
-<div class="row">
-<div class="col"> <!-- content -->
-	<h2>Components</h2>
-	<h3>Typography</h3>
+	<div class="row">
+		<div class="col"> 
+
+<!-- # CONTENT # -->
+
+			<h2>Components</h2>
+
+			<h3>Typography</h3>
+
+<!-- 	# CONTAINER PANEL # -->
 	
-	<div class="panel panel-default container" style="width: 900px;">
+				<div class="panel panel-default container" style="width: 900px;">
 
-<!-- Panel Body Container -->
-  		<div class="panel-body container">
-<!-- Parent Row -->
-	  		<div class="row">
-<!-- Parent Column -->
-		  		<div class="col-md-9">
+<!-- # PANEL CONTENT # -->
+		  		<div class="panel-body container">
 
-<!-- Child Row -->
-			  		<div class="row d-flex justify-content-start align-items-start">	
-<!-- 1st Child Column -->
-				  		<div class="col-sm-6">			
-							<p class="al-h1">Heading 1</p>
-<!-- /1st Child Column -->			</div> 
+			  		<div class="row">
+				  		<div class="col-md-9">
 
-<!-- 2nd Child Column -->	
+<!-- # H1 ROW # -->
+					  		<div class="row d-flex justify-content-start align-items-start">	
+						  		<div class="col-sm-6">			
+									<p class="al-h1">
+									Heading 1
+									</p>
+								</div> <!-- /col-sm-6 -->
+
 						<div class="col-sm">
 							<p class="al-co">					
 								<br>font-family: 'Damion', cursive;
@@ -78,38 +86,36 @@
 								<br>font-weight: normal;
 								<br>line-height: .7em;
 							</p>
-<!-- /2nd Child Column--> </div>
+						</div>
 
-<!-- /Child Row -->		</div> 
+<!-- /H1 ROW -->		</div> 
 
-<!-- Child Row -->
+<!-- # H2 ROW #-->
 					<div class="row d-flex justify-content-start align-items-start">	
-
-<!-- 1st Child Column -->	
 						<div class="col-sm-6">
 							<p class="al-h2">Heading 2</p>
-						</div> <!-- /col -->
-
-<!-- 2nd Child Column -->						
+						</div> <!-- /child column 1 -->
+				
 						<div class="col-sm">
 							<p class="al-co">
-							<br>font-family: 'Arvo', sans-serif;
-							<br>font-size: 1.3em;
-							<br>font-weight: normal;
-							<br>line-height: 1.45em;
+								<br>font-family: 'Arvo', sans-serif;
+								<br>font-size: 1.3em;
+								<br>font-weight: normal;
+								<br>line-height: 1.45em;
 							</p>
-						</div> <!-- /col -->
-					</div><!--  row -->
+						</div> <!-- /child column 2 -->
+
+					</div><!--  /child row -->
 
 
-<!-- Child Row -->
+<!-- #H3 ROW -->
 					<div class="row d-flex justify-content-start align-items-start">	
-<!-- 1st Child Column -->						
+			
 						<div class="col-sm-6">
 							<p class="al-h3">Heading 3</p>
-						</div> <!-- /col -->
+						</div> <!-- /child column 1 -->
 
-<!-- 2nd Child Column -->
+
 						<div class="col-sm">
 							<p class="al-co">
 							<br>font-family: 'Arvo', sans-serif;
@@ -117,16 +123,17 @@
 							<br>font-weight: 700;
 							<br>line-height: 1.6em;
 							</p>
-						</div> <!-- /col -->
-					</div><!--  row -->
+						</div> <!-- /child column 2 -->
+					</div><!--  /child row -->
 
-	<!-- Child Row -->
+<!-- # H4 ROW # -->
 				
 
 					<div class="row d-flex justify-content-start align-items-start">	
 						<div class="col-sm-6">
 							<p class="al-h4">Heading 4</p>
-						</div> <!-- /col -->
+						</div> <!-- /child column 1 -->
+
 						<div class="col-sm">
 							<p class="al-co">
 							<br>font-family: 'Arvo', sans-serif;
@@ -134,13 +141,15 @@
 							<br>font-weight: normal;
 							<br>line-height: 1.5em;
 							</p>
-						</div> <!-- /col -->
-					</div><!--  row -->
+						</div> <!-- /child column 2 -->
+					</div><!--  /child row -->
 
+<!-- # H5 ROW # -->
 					<div class="row d-flex justify-content-start align-items-start">	
 						<div class="col-sm-6">
 							<p class="al-h5">Heading 5</p>
-						</div> <!-- /col -->
+						</div> <!-- /child column 1 -->
+
 						<div class="col-sm">
 							<p class="al-co">
 							<br>font-family: 'Arvo', sans-serif;
@@ -148,13 +157,15 @@
 							<br>font-weight: bold;
 							<br>line-height: 1.5em;
 							</p>
-						</div> <!-- /col -->
-					</div><!--  row -->
+						</div> <!-- /child column 2 -->
+					</div><!--  /child row -->
 
+<!-- # H6 ROW # -->
 					<div class="row d-flex justify-content-start align-items-start">	
 						<div class="col-sm-6">
 							<p class="al-h6">Heading 6</p>
-						</div> <!-- /col -->
+						</div> <!-- /child column 1 -->
+
 						<div class="col-sm">
 							<p class="al-co">
 							<br>font-family: 'Arvo', sans-serif;
@@ -162,13 +173,15 @@
 							<br>font-weight: normal;
 							<br>line-height: 1.5em;
 							</p>
-						</div> <!-- /col -->
-					</div><!--  row -->
+						</div> <!-- /child column 2 -->
+					</div><!--  /child row -->
 
+<!-- # PARAGRAPH ROW # -->
 					<div class="row d-flex justify-content-start align-items-start">	
 						<div class="col-sm-6">
 							<p class="al-p">Paragraphs</p>
-						</div> <!-- /col -->
+						</div> <!-- /child column 1 -->
+
 						<div class="col-sm">
 							<p class="al-co">
 							<br>font-family: 'Open Sans', sans-serif;
@@ -176,14 +189,14 @@
 							<br>font-weight: normal;
 							<br>line-height: 1.5em;
 							</p>
-						</div> <!-- /col -->
-					</div><!--  row -->
+						</div> <!-- /child column 2 -->
+					</div><!--  /child row -->
 
-				</div> <!-- /col-9 -->
-			</div> <!--  row -->
+				</div> <!-- /parent column -->
+			</div> <!--  /parent row -->
 				
 		</div> <!-- /panel body -->
-		</div> <!-- /panel -->
+		</div> <!-- /panel container -->
 	
 <h3>Colors</h3>
 <h4>Palette</h4>
@@ -195,35 +208,32 @@
 	  		<div class="row d-flex">
 <!-- Parent Column -->
 		  		<div class="col-md-9">
+
 		  		<div class="row d-flex justify-content-start align-items-start">
 
-		  				
-		  					<div class="col-md-3 al-color al-color-blue d-block">
-		  					</div> <!-- color-block -->
+		  			<div class="col-md-3 al-color al-color-blue d-block">
+		  			</div> <!-- color-block -->
 
-				  			<div class="col-sm">
-				  			<p class="al-co">BLUE</p>
-				  			<p class="al-co">HEX: #00A3B4</p>
-</div>
- 						
-</div>
-<div class="row d-flex justify-content-start align-items-start">
- 						
-		  					<div class="col-md-3 al-color al-color-grey d-block">
-		  					</div> <!-- color-block -->
+				  	<div class="col-sm">
+			  			<p class="al-co">BLUE</p>
+			  			<p class="al-co">HEX: #00A3B4</p>
+						</div>
+
+ 					</div> <!-- /child row -->
+
+					<div class="row d-flex justify-content-start align-items-start">
+ 						<div class="col-md-3 al-color al-color-grey d-block">
+		  			</div> <!-- color-block -->
+
 		  					<div class="col-sm">
 				  			<p class="al-co">GREY</p>
 				  			<p class="al-co">HEX: #666666</p>
 		  				</div>
-				  </div>
-				</div>
-		  		
-		  
+				  </div> <!-- /child row -->
 
- 				</div> <!-- column -->
- 				</div> <!-- row -->
- 			
- 		</div> <!-- body container -->
+				</div> <!-- /parent column -->
+ 				</div> <!-- /parent row -->
+ 				</div> <!-- /panel body -->
  </div> <!-- panel container -->
 
 
@@ -233,114 +243,203 @@
 <h3>Labels</h3>
 <h4>Tags</h4>
 <h3>Form Controls</h3>
+
 <h4>Drop-downs</h4>
 
+<!-- # SECTION CONTAINER # -->
+
 <div class="panel panel-default container" style="width: 900px;">
+	<div class="panel-body container">
+		<div class="row">
+			<div class="col-md-9">
 
-<!-- Panel Body Container -->
-  		<div class="panel-body container">
-<!-- Parent Row -->
-	  		<div class="row d-flex">
-<!-- Parent Column -->
-		  		<div class="col-md-9">
+<!-- # DROPDOWN EXAMPLE ROW # -->
 
-		  		<div class="row">
+				<div class="row">
 		  		<div class="col">
-
-  <button class="btn btn-default dropdown-toggle my-4" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+		  		
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Dropdown
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-</div>
+					    <span class="caret"></span>
+					  </button>
 
-<div class="row d-flex">
-		  		<div class="col">
-  <p class="p-3">
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					    <li><a href="#">Action</a></li>
+					    <li><a href="#">Another action</a></li>
+					    <li><a href="#">Something else here</a></li>
+					    <li><a href="#">Separated link</a></li>
+					  </ul>
 
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#searchbarCode" aria-expanded="false" aria-controls="">
-    Code
-  </button>
+					</div> <!-- /child column -->
+				</div> <!-- /child row -->
 
-</p>
+<!-- # /DROPDOWN EXAMPLE ROW # -->
 
-<div class="collapse" id="searchbarCode">
-	<div class="codeSample">
-  		<pre class="pre-scrollable"><code class="html">
+<!-- # DROPDOWN CODE SAMPLE ROW # -->
 
-&lt;form class="navbar-form search-field" role="search" method="get" action="search_results.html"&gt;
-	&lt;div class="input-group"&gt;
- 		&lt;input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"&gt;
-  	&lt;div class="input-group-btn"&gt;
-    	&lt;button type="submit" class="btn btn-default"&gt;
-      		&lt;i class="glyphicon glyphicon-search"&gt; &lt;/i&gt;
-   		&lt;/button&gt;
- 	&lt;/div&gt; 
-	&lt;/div&gt; 
-&lt;/form&gt;
+						<div class="row d-flex">
+				  		<div class="col">
+								<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="#dropdownCode" aria-expanded="false" aria-controls="">
+							    Code
+							  </button>
+								<div class="collapse" id="dropdownCode">
+									<div class="codeSample">
+			  						<pre class="pre-scrollable">
+				  						<code class="html">
+											</code>
+										</pre>
+									</div> <!--/code sample-->
+								</div> <!-- /collapse -->
+							</div> <!-- /code child column-->
+						</div> <!-- /code child row -->
+					</div> <!-- /child column -->
+				</div> <!-- /child row -->
 
-  		</code></pre>
-</div> <!--code sample-->
+<!-- # /DROPDOWN CODE SAMPLE ROW # -->	
 
-						</div> <!--col-->
-						</div> <!-- row -->
+			</div> <!-- /parent column -->
+		</div> <!-- /parent row -->
+	</div> <!-- /panel body -->
+</div> <!-- /panel container -->
 
-						</div> <!-- parent col -->
-</div> <!-- parent row -->
-</div> <!-- panel body -->
 
-</div> <!-- panel container -->
-</div>
+<!-- /SECTION CONTAINER -->
 
 <h4>Text Inputs and Area</h4>
 
+<!-- # SECTION CONTAINER # -->
+<div class="panel panel-default container" style="width: 900px;">
+	<div class="panel-body container">
+		<div class="row d-flex">
+			<div class="col-md-9">
+
+<!-- # EXAMPLE ROW # -->
+				<div class="row">
+		  		<div class="col">
+
+					<textarea class="form-control" rows="3"></textarea>
+
+        	</div> <!-- /child column -->
+				</div> <!-- /child row -->
+
+<!-- # /EXAMPLE ROW # -->
+
+
+<!-- # CODE SAMPLE ROW # -->	
+
+						<div class="row d-flex">
+				  		<div class="col">
+								<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="#dropdownCode" aria-expanded="false" aria-controls="">
+							    Code
+							  </button>
+								<div class="collapse" id="dropdownCode">
+									<div class="codeSample">
+			  						<pre class="pre-scrollable">
+				  						<code class="html">
+											</code>
+										</pre>
+									</div> <!--/code sample-->
+								</div> <!-- /collapse -->
+							</div> <!-- /code child column-->
+						</div> <!-- /code child row -->
+					</div> <!-- /child column -->
+				</div> <!-- /child row -->
+
+
+<!-- # /CODE SAMPLE ROW # -->	
+
+			</div> <!-- /parent column -->
+		</div> <!-- /parent row -->
+	</div> <!-- /panel body -->
+</div> <!-- /panel container -->
+
 <h3>Form Templates</h3>
+
 <h4>Add a Resource Form</h4>
+
+<!-- # SECTION CONTAINER # -->
+
+<div class="panel panel-default container" style="width: 900px;">
+	<div class="panel-body container">
+		<div class="row">
+			<div class="col-md-9">
+
+<!-- # EXAMPLE ROW # -->
+
+				<div class="row">
+		  		<div class="col">
+
+</div> <!-- /child column -->
+				</div> <!-- /child row -->
+
+<!-- # /EXAMPLE ROW # -->
+
+<!-- # CODE SAMPLE ROW # -->
+
+						<div class="row d-flex">
+				  		<div class="col">
+								<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="#dropdownCode" aria-expanded="false" aria-controls="">
+							    Code
+							  </button>
+								<div class="collapse" id="dropdownCode">
+									<div class="codeSample">
+			  						<pre class="pre-scrollable">
+				  						<code class="html">
+											</code>
+										</pre>
+									</div> <!--/code sample-->
+								</div> <!-- /collapse -->
+							</div> <!-- /code child column-->
+						</div> <!-- /code child row -->
+					</div> <!-- /child column -->
+				</div> <!-- /child row -->
+
+<!-- # /DROPDOWN CODE SAMPLE ROW # -->	
+
+			</div> <!-- /parent column -->
+		</div> <!-- /parent row -->
+	</div> <!-- /panel body -->
+</div> <!-- /panel container -->
 
 
 <h3>Search Bar</h3>
 
-<div class="panel panel-default container" style="width: 900px;">
 
-<!-- Panel Body Container -->
-  		<div class="panel-body container">
-<!-- Parent Row -->
-	  		<div class="row d-flex">
-<!-- Parent Column -->
-		  		<div class="col-md-9">
+<!-- # SECTION CONTAINER # -->	
+
+<div class="panel panel-default container" style="width: 900px;">
+  <div class="panel-body container">
+		<div class="row d-flex">
+			<div class="col-md-9">
+
+<!-- # EXAMPLE ROW # -->	
 
 		  		<div class="row">
+			  		<div class="col">
+
+							<form class="navbar-form search-field" role="search" method="get" action="search_results.html" style="padding: 0;">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+									<div class="input-group-btn">
+							    	<button type="submit" class="btn btn-default">
+							      	<i class="glyphicon glyphicon-search"></i>
+							      </button>
+							     </div> <!-- /input-group-btn -->
+							   </div> <!-- /input-group -->
+							 </form>
+
+						</div> <!-- /child column-->
+					</div> <!-- /child row -->
+
+
+<!-- # /EXAMPLE ROW # -->
+
+<!-- # CODE SAMPLE ROW # -->	
+					<div class="row d-flex">
 		  		<div class="col">
-						<form class="navbar-form search-field" role="search" method="get" action="search_results.html" style="padding: 0;">
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-								<div class="input-group-btn">
-						    	<button type="submit" class="btn btn-default">
-						      	<i class="glyphicon glyphicon-search"></i>
-						      </button>
-						     </div> <!-- /input-group-btn -->
-						   </div> <!-- /input-group -->
-						 </form>
-						</div> <!--col-->
-						</div> <!-- row -->
-
-<div class="row d-flex">
-		  		<div class="col">
-  <p class="p-3">
-
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#searchbarCode" aria-expanded="false" aria-controls="">
-    Code
-  </button>
-
-</p>
-
+					  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#searchbarCode" aria-expanded="false" aria-controls="">
+				    Code
+				  </button>
 
 <div class="collapse" id="searchbarCode">
 	<div class="codeSample">
@@ -364,6 +463,8 @@
 	</div> <!--col-->
 	</div> <!-- row -->
 
+<!-- # /CODE SAMPLE ROW # -->	
+
 </div> <!-- parent col -->
 </div> <!-- parent row -->
 </div> <!-- panel body -->
@@ -378,7 +479,17 @@
 <h3> Resource Card</h3>
 
 
-   
+<!-- # SECTION CONTAINER # -->	
+
+<div class="panel panel-default container" style="width: 900px;">
+  <div class="panel-body container">
+		<div class="row d-flex">
+			<div class="col-md-9">
+
+<!-- # EXAMPLE ROW # -->	
+				<div class="row">
+			  		<div class="col">
+
  <div class="card">
     <div class="card-block">
       <div class="vote-column">
@@ -408,11 +519,45 @@
           <a href="#" class="card-link">hide</a>
           <a href="#" class="card-link">report</a>    
         </div> <!-- /bottom-row -->
-      </div> <!-- /card-content-->
-    </div> <!-- /card-block -->
-  </div> <!-- /card -->
+      	</div> <!-- /card-content-->
+    	</div> <!-- /card-block -->
+  	</div> <!-- /card -->
+	</div> <!--col-->
+</div> <!-- row -->
+<!-- # CODE SAMPLE ROW # -->	
+					<div class="row d-flex">
+		  		<div class="col">
+					  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#resourceCardCode" aria-expanded="false" aria-controls="">
+				    Code
+				  </button>
+
+<div class="collapse" id="resourceCardCode">
+	<div class="codeSample">
+  		<pre class="pre-scrollable"><code class="html">
+
+&lt;form class="navbar-form search-field" role="search" method="get" action="search_results.html"&gt;
+	&lt;div class="input-group"&gt;
+ 		&lt;input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"&gt;
+  	&lt;div class="input-group-btn"&gt;
+    	&lt;button type="submit" class="btn btn-default"&gt;
+      		&lt;i class="glyphicon glyphicon-search"&gt; &lt;/i&gt;
+   		&lt;/button&gt;
+ 	&lt;/div&gt; 
+	&lt;/div&gt; 
+&lt;/form&gt;
+
+  		</code></pre>
+</div> <!--code sample-->
+</div> <!--collapse-->
+
+	</div> <!--col-->
+	</div> <!-- row -->
+
+<!-- # /CODE SAMPLE ROW # -->	
+
 </div> <!-- col -->
 </div> <!-- row -->
+
 </div> <!-- wrapper -->
 </body>
 </html>
