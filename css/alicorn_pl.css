@@ -1,3 +1,5 @@
+
+
 .al-h1	{
 	font-family: 'Damion', cursive;
 	font-size: 2.6em;
@@ -97,4 +99,407 @@
 }
 
 	.al-color-grey {
-  		background-color: #666666; }
+  		background-color: #666666; 
+  	}
+
+
+
+/*  # HEADER # */
+
+.al-head-col {
+	height: 100%;
+  	box-sizing: border-box;
+  	font-family: 'Open Sans', sans-serif;
+}
+.al-top_nav, 
+.al-top_nav:before,
+.al-top_nav:after {
+  box-sizing: inherit;
+
+}
+
+
+
+.al-header-h1 {
+	background-color: white;
+	color: #9D3968;
+	font-size: 24px;
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.al-top_nav {
+	background-color: #9D3968;
+	padding: 1rem;
+
+}
+
+.al-top_nav ul {
+	float: left;
+	display: inline-block;
+}
+
+.al-top_nav li {
+	font-size: .9em;
+	line-height: 24px;
+	display: inline-block;
+	padding: .2rem;
+	margin: .4rem;
+}
+
+.al-add_resource {
+	float: right;
+	margin: 0 20px;
+	display: inline;
+	line-height: 40px; 
+}
+
+.al-a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.al-a:hover {
+	font-size: 16px; 
+	border-bottom: 2px solid white !important;
+	color: white;
+	text-decoration: none;
+}
+
+.al-a:active {
+	font-size: 16px;
+	border-bottom: 2px solid white;
+	color: white;
+	text-decoration: none;
+}
+
+.al-profile_info {
+	float: right;
+	position: relative;
+	right: 100px;
+	
+}
+
+.al-img {
+	width: 40px;
+	border-radius: 50%;
+	
+}
+
+.al-user {
+	position: absolute;
+	top: 5px;
+	
+}
+
+.al-logout {
+
+	font-size: 12px;
+	position: relative;
+	top: 15px;
+}
+
+.al-input[type=text] {
+    width: 175px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #9D3968;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer li {
+	font-size: .9em;
+	display: inline-block;
+	padding: .1rem;
+}
+
+.al-copyright {
+	color: white;
+	font-size: 12px;
+	margin: 10px 5px 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* # FORMS # */
+
+.al-form-body {
+	background-color: #fefefe;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    line-height: 1.5em;
+}
+
+.al-form-h2 {
+
+	font-size: 180%;
+    font-family: 'arvo';
+    font-style: normal;
+    font-weight: 700;
+    color: #666666;
+}
+
+#al-form-container {
+  margin: 0 auto;
+  width: 640px; 
+}
+
+label.al-form-desc, legend.al-form-desc {
+    line-height: 150%;
+    margin: 0;
+    padding: 0 0 3px 0;
+    border: none;
+    display: block;
+    white-space: normal;
+    width: 100%;
+}
+
+.al-wufoo label.al-form-desc, .al-wufoo legend.al-form-desc {
+    font-size: 140%;
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.al-form li {
+    margin: 0;
+    padding: 6px 0 9px 0;
+    clear: both;
+    background-color: transparent;
+    position: relative;
+    -webkit-transition: background-color 350ms ease-out;
+    -moz-transition: background-color 350ms ease-out;
+    -o-transition: background-color 350ms ease-out;
+    transition: background-color 350ms ease-out;
+}
+
+.al-form span.al-form-req {
+    display: inline;
+    float: none;
+    color: red !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.al-form li span {
+    margin: 0 .3em 0 0;
+    padding: 0;
+    float: left;
+    color: #444;
+}
+
+#form5 input#Field1, #form7 input#Field2, #form10 input#Field14 {
+    width: 100px;
+}
+.al-wufoo input.al-form-text, .al-wufoo textarea.al-form-textarea, .al-wufoo input.al-form-file, .al-wufoo select.al-form-select {
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+    font-size: 110%;
+}
+input.al-form-text, input.al-form-search, textarea.al-form-textarea {
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+    background: #fff url(/images/fieldbg.gif) repeat-x top;
+    padding: 2px 0;
+}
+/* ## ADD A RESOURCE ##  */
+
+
+
+
+
+
+
+
+/* # CARD # */
+
+
+/*.card{
+  margin-left: 20px;
+
+}*/
+
+
+.card-block {
+  border-width: 1px;
+  border-style: solid;
+  padding: 15px;
+  border-color: lightgrey;
+  border-radius: 3px;
+  display: flex;
+  align-items: stretch;
+}
+
+.vote-column {
+  /*margin: -9px 0 0 0;*/
+  /*padding: 0 0 10 0;*/
+  text-decoration: none;
+  display:flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  margin-right: 15px;
+
+/*  justify-content: space-between;
+*/  /*align-items: flex-start;*/
+}
+
+
+.btn-ali {
+  color: #FFFFFF; 
+  background-color: #00A3B4;
+  font-size: 16px;
+  font-family: 'Arvo', sans serif;
+  line-height: 1.8;
+  width: 65px;
+  height: 100%;
+  border-color: #444444; 
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: none;
+
+}
+
+.btn-ali-alt {
+  color: #000000; 
+  background-color: #e3e3e3; 
+  font-size: 16px;
+  font-family: 'Arvo', sans serif;
+  line-height: 1.8;
+  width: 65px;
+  height: 100%;
+  border-color: #444444; 
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+
+.glyphicon-triangle-top {
+  color: white; 
+}
+
+.glyph-alt {
+  color: #00A3B4; 
+}
+
+
+.vote-count {
+  font-family: 'Open Sans', sans serif;
+  /*display: block;*/
+  font-size: 1em;
+  color: #white;
+  font-weight: bold;
+}
+
+
+.card-content {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title-row {
+  display: flex;
+  align-items: flex-end;
+}
+.url-label {
+  font-family: ;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.card-title {
+
+  font-family: 'Open Sans', sans serif;
+  /*display: block;*/
+  font-size: 1em;
+  color: #00a3b4;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.card-title a {
+
+  color: #00a3b4;
+  text-decoration: none;
+}
+
+
+p.card-text {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #445555;
+  margin: 0 0 10px 0;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  
+}
+.card-subtitle {
+  font-family: 'Verdana', sans serif;
+  margin: 0 0 -10px 0;
+  font-size: 12px;
+  color: #445555;
+  padding: 0 12px 0 0;
+}
+.card-subtitle a {
+
+  color: black;
+  
+}
+
+/*.card-links-row {
+
+  display: flex;
+  justify-content: flex-start;
+}*/
+.card-link {
+  color:#0275d8;
+  text-decoration: none;
+  margin: 0 0 -10px 0;
+  padding: 0 12px 0 0;
+  font-size: 12px;
+  font-family: 'Verdana', sans serif;
+  /*margin-left: 15px;*/
+
+}
+

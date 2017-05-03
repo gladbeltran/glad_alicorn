@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/alicorn_styles.css">
-  <link rel="stylesheet" type="text/css" href="css/alicorn_pl.css"> 
 
-  <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700|Lato:400,700|Montserrat:400,400i,500,600,700|Open+Sans:400,600|Roboto:400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+  
+
+
+<link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700|Lato:400,700|Montserrat:400,400i,500,600,700|Open+Sans:400,600|Roboto:400,500,700" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+
+
+<link rel="stylesheet" type="text/css" href="css/alicorn_pl.css"> 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
+
 <link rel="stylesheet" href="js/styles/github-gist.css">
+
 <script src="js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
@@ -168,7 +178,7 @@
 
 						<div class="col-sm">
 							<p class="al-co">
-							<br>font-family: 'Arvo', sans-serif;
+							font-family: 'Arvo', sans-serif;
 							<br>font-size: 6pt;
 							<br>font-weight: normal;
 							<br>line-height: 1.5em;
@@ -246,68 +256,12 @@
 
 <h4>Drop-downs</h4>
 
-<!-- # SECTION CONTAINER # -->
 
-<div class="panel panel-default container" style="width: 900px;">
-	<div class="panel-body container">
-		<div class="row">
-			<div class="col-md-9">
-
-<!-- # DROPDOWN EXAMPLE ROW # -->
-
-				<div class="row">
-		  		<div class="col">
-		  		
-						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Dropdown
-					    <span class="caret"></span>
-					  </button>
-
-					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-					    <li><a href="#">Action</a></li>
-					    <li><a href="#">Another action</a></li>
-					    <li><a href="#">Something else here</a></li>
-					    <li><a href="#">Separated link</a></li>
-					  </ul>
-
-					</div> <!-- /child column -->
-				</div> <!-- /child row -->
-
-<!-- # /DROPDOWN EXAMPLE ROW # -->
-
-<!-- # DROPDOWN CODE SAMPLE ROW # -->
-
-						<div class="row d-flex">
-				  		<div class="col">
-								<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="#dropdownCode" aria-expanded="false" aria-controls="">
-							    Code
-							  </button>
-								<div class="collapse" id="dropdownCode">
-									<div class="codeSample">
-			  						<pre class="pre-scrollable">
-				  						<code class="html">
-											</code>
-										</pre>
-									</div> <!--/code sample-->
-								</div> <!-- /collapse -->
-							</div> <!-- /code child column-->
-						</div> <!-- /code child row -->
-					</div> <!-- /child column -->
-				</div> <!-- /child row -->
-
-<!-- # /DROPDOWN CODE SAMPLE ROW # -->	
-
-			</div> <!-- /parent column -->
-		</div> <!-- /parent row -->
-	</div> <!-- /panel body -->
-</div> <!-- /panel container -->
-
-
-<!-- /SECTION CONTAINER -->
 
 <h4>Text Inputs and Area</h4>
 
 <!-- # SECTION CONTAINER # -->
+
 <div class="panel panel-default container" style="width: 900px;">
 	<div class="panel-body container">
 		<div class="row d-flex">
@@ -354,6 +308,8 @@
 </div> <!-- /panel container -->
 
 <h3>Form Templates</h3>
+<p>Form controls allow users to enter information into a page.
+		  		</p>
 
 <h4>Add a Resource Form</h4>
 
@@ -361,43 +317,188 @@
 
 <div class="panel panel-default container" style="width: 900px;">
 	<div class="panel-body container">
+		
 		<div class="row">
 			<div class="col-md-9">
 
 <!-- # EXAMPLE ROW # -->
 
 				<div class="row">
-		  		<div class="col">
+		  		<div class="col al-form-body">
+		  			<div id="al-form-container" class="ltr">
+							<form id="form5" name="form5" class="al-form al-wufoo topLabel page1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://centercentre.wufoo.com/forms/st77xzk1tf8yne/">
+  							<header id="header" class="info">
+									<p class="al-form-h2">
+									Forms
+									</p>
+								</header>	
+								<ul>
+									<li>
+										<label class="al-form-desc"> Name <span class="al-form-req">*</span>
+										</label>
+										<span>
+											<input id="Field1" name="Field1" type="text" class="al-form-field al-form-text" value="" size="8" required />
+											<label for="Field1">First</label>
+										</span>
+										<span>
+											<input id="Field2" name="Field2" type="text" class="al-form-field al-form-text" value="" size="14" required />
+											<label for="Field2">Last</label>
+										</span>
+									</li>
+									<li id="fo5li3">
+										<label class="al-form-desc" id="title3" for="Field3">
+											Email<span id="req_3" class="al-form-req">*</span>
+										</label>
+										<input id="Field3" name="Field3" type="email" spellcheck="false" class="al-form-field al-form-text medium" value="" maxlength="255"	required />
+									</li>
+									<li id="fo5li218">
+										<label class="al-form-desc" id="title218" for="Field218">
+											Website
+										</label>
+										<input id="Field218" name="Field218" type="url" class="al-form-field al-form-text medium" value="" maxlength="255" />
+									</li>
+									<li id="fo5li224">
+										<label class="al-form-desc" id="title224" for="Field224">
+											Pre-populated field
+										</label>
+										<input id="Field224" name="Field224" type="url" class="al-form-field al-form-text medium" value="https://twitter.com/" maxlength="255" />
+									</li>
+									<li id="fo5li222" 		 	 >
+											<label class="al-form-desc" id="title222" for="Field222">
+											Upload file</label>
+											<input id="Field222" name="Field222" type="file" class="al-form-field al-form-file" size="12" tabindex="7" required />
+									</li>
+									<li>
+										<select id="topic_list">
+											<option value="">Select Topic</option>
+									 		<option value="accessibility">Accessibility</option>
+											<option value="business">Business of UX</option>
+											<option value="communicating">Communicating Design</option>
+											<option value="content">Content Strategy</option>
+											<option value="copywriting">Copywriting</option>
+											<option value="critiquing">Critiquing</option>
+											<option value="data">Data Analytics</option>
+											<option value="process">Design Process</option>
+											<option value="studio">Design Studio</option>
+											<option value="social">Designing for Social</option>
+											<option value="">Development Methods</option>
+											<option value="development">Front-End Development</option>
+											<option value="fed">Functional Editing &amp; Curation</option>
+											<option value="IA">Information Architecture</option>
+											<option value="id">Information Design</option>
+											<option value="ixd">Interaction Design</option>
+											<option value="introUX">Intro to User Experience</option>
+											<option value="leadership">Leadership</option>
+											<option value="mobile">Mobile Design</option>
+											<option value="presetning">Presenting</option>
+											<option value="prototyping">Prototyping</option>
+											<option value="service">Service Design</option>
+											<option value="sketching">Sketching</option>
+											<option value="storyboarding">Storyboarding</option>
+											<option value="storytelling">Storytelling</option>
+											<option value="ux">User Experience</option>
+											<option value="research">User Research Practices</option>
+											<option value="scenarios">User Scenarios</option>
+											<option value="visual">Visual Design</option>
+									     </select>
+									</li>
 
-</div> <!-- /child column -->
+<li id="fo5li221">
+	<label class="desc" id="title221" for="Field221">
+		A large text area
+		<span id="req_221" class="req">*</span>
+		<div class="tooltip">
+			<span class="tooltiptext">Notifications tell you when another user upvotes or comments on a resource you’ve posted. <br>
+			<br>
+			View notifications in the notifications tab on the homepage. Notification settings for each post can be edited on the resource’s page; once there, find and click “edit” and uncheck “notifications”.</span>
+			<img src="http://flex.x10host.com/addingresource/Adding%20a%20Resource/img/tooltip.png" class="tooltip_icon">
+		</div>
+	</label>
+
+	<div>
+		<textarea id="Field221" name="Field221" class="field textarea medium" spellcheck="true"
+ rows="10" cols="50" required  ></textarea>
+
+				<label for="Field221">Maximum Allowed: <var id="rangeMaxMsg221">250</var> words. <em class="currently">Currently Used: <var id="rangeUsedMsg221">0</var> words.</em></label>
+			</div>
+			
+	
+	</li>
+
+
+<li id="fo9li1" 		class="     ">
+	<fieldset>
+	<legend id="title1" class="desc">Checkboxes below</legend>
+	<div><span class="subfield">
+		<input id="Field3" name="Field3" type="checkbox" class="field checkbox" value="I&#039;m a hiring manager." tabindex="4"  />
+		<label class="choice" for="Field3">
+			<span class="choice__text ">I'm a hiring manager.</span>
+			<span class="choice__qty"></span>
+		</label>
+	</span>
+	<span class="subfield">
+		<input id="Field4" name="Field4" type="checkbox" class="field checkbox" value="I&#039;m a fellow adventurer." tabindex="5"  />
+		<label class="choice" for="Field4">
+			<span class="choice__text ">I'm a fellow adventurer.</span>
+			<span class="choice__qty"></span>
+		</label>
+	</span>
+	</div>
+	</fieldset>
+	</li>
+	<li>
+	<fieldset>
+	<legend id="title1" class="desc">Radio buttons below</legend>
+		<input name="Field40" type="radio" class="radio" value="daily" />
+		<label class="choice" for="Field40">Daily</label>
+		<input name="Field40" type="radio" class="radio" value="weekly" />
+		<label class="choice" for="Field40">Weekly</label>
+	</fieldset>
+		
+	</li>
+
+	<li class="buttons ">
+	<legend id="title1" class="desc">A submit button</legend>
+		<input id="saveForm" name="saveForm" class="btTxt submit"type="submit" value="Submit" />
+	</li>
+
+	</ul>
+</form>
+ 
+
+
+
+					</div> <!-- /child column -->
 				</div> <!-- /child row -->
 
 <!-- # /EXAMPLE ROW # -->
 
 <!-- # CODE SAMPLE ROW # -->
 
-						<div class="row d-flex">
-				  		<div class="col">
-								<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="#dropdownCode" aria-expanded="false" aria-controls="">
-							    Code
-							  </button>
-								<div class="collapse" id="dropdownCode">
-									<div class="codeSample">
-			  						<pre class="pre-scrollable">
-				  						<code class="html">
-											</code>
-										</pre>
-									</div> <!--/code sample-->
-								</div> <!-- /collapse -->
-							</div> <!-- /code child column-->
-						</div> <!-- /code child row -->
-					</div> <!-- /child column -->
-				</div> <!-- /child row -->
+				<div class="row d-flex">
+				  <div class="col">
+						<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="" aria-expanded="false" aria-controls="">
+					    Code
+					  </button>
+						<div class="collapse" id="">
+							<div class="codeSample">
+	  						<pre class="pre-scrollable">
+		  						<code class="html">
+									</code>
+								</pre>
+							</div> <!--/code sample-->
+						</div> <!-- /collapse -->
+					</div> <!-- /code child column-->
+				</div> <!-- /code child row -->
 
-<!-- # /DROPDOWN CODE SAMPLE ROW # -->	
+			</div> <!-- /child column -->
+		</div> <!-- /child row -->
+
+<!-- # /CODE SAMPLE ROW # -->	
 
 			</div> <!-- /parent column -->
-		</div> <!-- /parent row -->
+			</div> <!-- /parent row -->
 	</div> <!-- /panel body -->
 </div> <!-- /panel container -->
 
@@ -408,9 +509,10 @@
 <!-- # SECTION CONTAINER # -->	
 
 <div class="panel panel-default container" style="width: 900px;">
-  <div class="panel-body container">
+	<div class="panel-body container">
 		<div class="row d-flex">
 			<div class="col-md-9">
+
 
 <!-- # EXAMPLE ROW # -->	
 
@@ -465,13 +567,107 @@
 
 <!-- # /CODE SAMPLE ROW # -->	
 
-</div> <!-- parent col -->
-</div> <!-- parent row -->
-</div> <!-- panel body -->
-
+			</div> <!-- parent col -->
+		</div> <!-- parent row -->
+	</div> <!-- panel body -->
 </div> <!-- panel container -->
 
 <h3>Headers</h3>
+<!-- # SECTION CONTAINER # -->
+
+<div class="panel panel-default container" style="width: 900px;">
+	<div class="panel-body container">
+
+		<div class="row">
+			<div class="col-md-9">
+
+<!-- # EXAMPLE ROW # -->
+
+				<div class="row al-head-col">
+		  		<div class="col">
+
+						<nav class="al-top_nav clearfix">
+							<p class="al-header-h1">Brand</p>
+							<div class="al-profile_info">
+								<a href="#" class="al-img">
+									<img src="img/profile_image.png" class="al-img">
+								</a>
+								<a href="#" class="al-a al-user">Username</a>
+								<a href="#" class="al-a al-logout">Logout</a>
+							</div>
+							<br>
+							<ul>
+								<li><a href="#" class="al-a">Popular</a></li>
+								<li><a href="#" class="al-a">Latest</a></li>
+								<li><a href="#" class="al-a">Topics</a></li>
+								<li><a href="#" class="al-a">My Resources</a></li>
+							</ul>
+							<form>
+						  	<input type="text" name="search" placeholder="Search..." class="al-input">
+						  </form>
+							<a href="#" class="al-add_resource al-a">Add Resource +</a>	
+						</nav>
+	
+					</div> <!-- /child column -->
+				</div> <!-- /child row -->
+
+<!-- # /EXAMPLE ROW # -->
+
+<!-- # CODE SAMPLE ROW # -->
+
+				<div class="row d-flex">
+		  		<div class="col">
+						<button class="btn btn-primary" style="margin: 8px 0 8px 0;" type="button" data-toggle="collapse" data-target="#headerCode" aria-expanded="false" aria-controls="">
+					    Code
+					  </button>
+						<div class="collapse" id="headerCode">
+							<div class="codeSample">
+	  						<pre class="pre-scrollable">
+		  						<code class="html">
+&lt;nav class="top_nav clearfix"&gt;
+	&lt;h1&gt;Brand&lt;/h1&gt;
+	&lt;div class="profile_info"&gt;
+		&lt;a href="#"&gt;
+			&lt;img src="img/profile_image.png"&gt;
+		&lt;/a&gt;
+		&lt;a href="#" class="user"&gt;Username&lt;/a&gt;
+		&lt;a href="#" class="logout"&gt;Logout&lt;/a&gt;
+	&lt;/div&gt;
+&lt;br&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="#"&gt; Popular&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Latest&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Topics&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;My Resources&lt;/a>&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;form&gt;
+  		&lt;input type="text" name="search" placeholder="Search..."&gt;
+    &lt;/form&gt;   
+		&lt;a href="#" class="add_resource"&gt;Add Resource +&lt;/a&gt;	
+&lt;/nav&gt;
+									</code>
+								</pre>
+
+							</div> <!--/code sample-->
+						</div> <!-- /collapse -->
+
+					</div> <!-- /code child column-->
+				</div> <!-- /code child row -->
+
+<!-- # /CODE SAMPLE ROW # -->	
+
+			</div> <!-- /parent column -->
+		</div> <!-- /parent row -->
+
+	</div> <!-- /panel body -->
+</div> <!-- /panel container -->
+
+
+
+<!-- /SECTION CONTAINER -->
+
+
 <h4>Global Nav</h4>
 <h4>Logo</h4>
 <h4>Login/Account</h4>
@@ -483,6 +679,7 @@
 
 <div class="panel panel-default container" style="width: 900px;">
   <div class="panel-body container">
+
 		<div class="row d-flex">
 			<div class="col-md-9">
 
@@ -527,37 +724,44 @@
 <!-- # CODE SAMPLE ROW # -->	
 					<div class="row d-flex">
 		  		<div class="col">
+
 					  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#resourceCardCode" aria-expanded="false" aria-controls="">
 				    Code
-				  </button>
+				  	</button>
 
-<div class="collapse" id="resourceCardCode">
-	<div class="codeSample">
-  		<pre class="pre-scrollable"><code class="html">
+						<div class="collapse" id="resourceCardCode">
+							<div class="codeSample">
+						  		<pre class="pre-scrollable">
+						  			<code class="html">
 
-&lt;form class="navbar-form search-field" role="search" method="get" action="search_results.html"&gt;
-	&lt;div class="input-group"&gt;
- 		&lt;input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"&gt;
-  	&lt;div class="input-group-btn"&gt;
-    	&lt;button type="submit" class="btn btn-default"&gt;
-      		&lt;i class="glyphicon glyphicon-search"&gt; &lt;/i&gt;
-   		&lt;/button&gt;
- 	&lt;/div&gt; 
-	&lt;/div&gt; 
-&lt;/form&gt;
+						&lt;form class="navbar-form search-field" role="search" method="get" action="search_results.html"&gt;
+							&lt;div class="input-group"&gt;
+						 		&lt;input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"&gt;
+						  	&lt;div class="input-group-btn"&gt;
+						    	&lt;button type="submit" class="btn btn-default"&gt;
+						      		&lt;i class="glyphicon glyphicon-search"&gt; &lt;/i&gt;
+						   		&lt;/button&gt;
+						 	&lt;/div&gt; 
+							&lt;/div&gt; 
+						&lt;/form&gt;
 
-  		</code></pre>
-</div> <!--code sample-->
-</div> <!--collapse-->
+						  			</code>
+						  		</pre>
+								</div> <!--code sample-->
+							</div> <!--collapse-->
 
-	</div> <!--col-->
-	</div> <!-- row -->
+						</div> <!-- /code column-->
+					</div> <!-- /code row -->
 
 <!-- # /CODE SAMPLE ROW # -->	
 
-</div> <!-- col -->
-</div> <!-- row -->
+			</div> <!-- /child column -->
+		</div> <!-- /child row -->
+	</div> <!-- /panel body -->
+</div> <!-- /panel container -->
 
+</div> <!-- /wrapper column -->
+		</div> <!-- /wrapper row -->
 </div> <!-- wrapper -->
 </body>
 </html>
